@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "easy-typer-js": "^2.1.0",
     "element-ui": "^2.12.0",
     "mockjs": "^1.0.1-beta3",
     "qs": "^6.7.0",

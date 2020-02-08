@@ -13,7 +13,6 @@
             background-color="transparent"
             text-color="#fff"
             active-text-color="#ffd04b"
-            @select="handerSelect"
           >
             <el-menu-item
               v-for="item in menus"
