@@ -1,0 +1,5 @@
+@import "./common-variables";
+
+@mixin background-full($url) {
+  background: url($url) 0 0/100% 100% no-repeat;
+}
