@@ -14,13 +14,11 @@
 </template>
 
 <script>
-// import Header from './header.vue';
 import Navbar from './navbar.vue';
 
 export default {
   name: 'layout',
   components: {
-    // Header,
     Navbar
   }
 };

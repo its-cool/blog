@@ -1,7 +1,6 @@
 <template>
   <div style="" class="full">
     <div class="home-img"></div>
-    <!--    <el-image></el-image>-->
   </div>
 </template>
 

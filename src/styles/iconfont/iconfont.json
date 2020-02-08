@@ -1,0 +1,16 @@
+{
+  "id": "1631699",
+  "name": "MyBlog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12388885",
+      "name": "龙",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

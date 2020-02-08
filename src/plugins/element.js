@@ -6,9 +6,10 @@
 import Vue from 'vue';
 
 // 方式一：按需加载
-import { MenuItem, Menu, Button, Loading, Message } from 'element-ui';
+import { MenuItem, Tooltip, Menu, Button, Loading, Message } from 'element-ui';
 
 Vue.use(Button);
+Vue.use(Tooltip);
 Vue.use(Menu);
 Vue.use(MenuItem);
 Vue.use(Loading.directive);
