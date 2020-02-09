@@ -27,12 +27,10 @@ export default {
 <style lang="scss" scoped>
 @import '~@/styles/common-variables';
 .layout {
-  position: relative;
-  flex: none;
   .aside-nav {
-    position: absolute;
-    left: 0;
+    position: fixed;
     top: 0;
+    left: 0;
     bottom: 0;
   }
   .main-body {

@@ -1,8 +1,10 @@
 <template>
-  <div style="" class="full">
+  <div class="full">
     <div class="home-img flex-center">
       <div class="home-img-text">
-        <h1 style="color:#ffffff;text-align: center;font-size: 70px">远方</h1>
+        <h1 style="color:#ffffff;text-align: center;font-size: 70px">
+          诗与远方
+        </h1>
         <div
           style="font-size: 30px;color:#ffffff; text-align: center;margin-top: 60px"
           class=""
@@ -11,15 +13,19 @@
         </div>
       </div>
     </div>
-    <div class="">
-      <h2>这是文本</h2>
+    <div class="home-main-content">
+      <ArticleList />
     </div>
   </div>
 </template>
 
 <script>
+//组件
+import ArticleList from './components/ArticleList';
+//第三方插件
 import EasyTyper from 'easy-typer-js';
 export default {
+  components: { ArticleList },
   data() {
     return {
       obj: {
@@ -117,5 +123,10 @@ export default {
       opacity: 1;
     }
   }
+}
+.home-main-content {
+  width: 50%;
+  margin: 0 auto;
+  min-width: 1000px;
 }
 </style>

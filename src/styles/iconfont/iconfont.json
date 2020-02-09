@@ -6,11 +6,25 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7933498",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
       "icon_id": "12388885",
       "name": "龙",
       "font_class": "tubiaozhizuomoban",
       "unicode": "e603",
       "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12955707",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
     }
   ]
 }

@@ -6,8 +6,21 @@
 import Vue from 'vue';
 
 // 方式一：按需加载
-import { MenuItem, Tooltip, Menu, Button, Loading, Message } from 'element-ui';
+import {
+  Card,
+  Divider,
+  Image,
+  MenuItem,
+  Tooltip,
+  Menu,
+  Button,
+  Loading,
+  Message
+} from 'element-ui';
 
+Vue.use(Card);
+Vue.use(Image);
+Vue.use(Divider);
 Vue.use(Button);
 Vue.use(Tooltip);
 Vue.use(Menu);
